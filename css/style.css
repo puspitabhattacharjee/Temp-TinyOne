@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4{
+    font-weight: 700;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+/* header */
+
+.tiny-header{
+    background: #fcdb00;
+    padding: 60px 0 ;
+}
+
+.tiny-menu-icon{
+    color: #010101;
+    font-size: 20px;
+}
+
+.social-icons ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.social-icons ul li a{
+    color: #010101;
+    font-size: 20px;
+    padding: 0 11px;
+}
+
+.tiny-slide{
+    text-align:center ;
+    padding: 175px 0 120px;
+}
+
+.tiny-slide h2{
+    color: #010101;
+    font-size: 48px;
+}
+.tiny-slide p{
+    color: #313841;
+    font-size: 20px;
+}
+.tiny-slide ul{
+    display: flex;
+    justify-content: center;
+}
+.tiny-slide ul li{
+    border: 2px solid #010101;
+    margin: 0 15px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.tiny-slide ul li i{
+    color: #010101;
+    font-size:35px ;
+}
+
+.tiny-slide a {
+    text-transform: uppercase;
+    color: #2d2d2d;
+    border: 2px solid #000;
+    padding: 10px 25px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.tiny-slide a:hover{
+    background: #010101;
+    color: #fff;
+}
+
+.tiny-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+.tiny-menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.tiny-menu ul li a{
+    color: #010101;
+    font-size: 15px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.tiny-follow{
+   display: none; 
+}
+
+
+
+/* end */
+
+.tiny-feature{
+    background-color: #fff;
+    padding: 115px 0;
+}
+
+.tiny-tittle{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.tiny-tittle h3{
+    font-style: 32px;
+    color: #010101;
+}
+.tiny-tittle p{
+    font-style: 20px;
+    color: #010101;
+}
+
+.tiny-feature-content{
+    padding:45px 0;
+}
+.tiny-feature-content h5{
+    font-size: 22px;
+    color: #010101;
+}
+.tiny-feature-content p{
+    font-size: 16px;
+    color: #898989;
+}
+
+.tiny-mobile{
+    position: relative;
+}
+.tiny-mobile img{
+    width: 100%;
+}
+
+.tiny-feature-logo{
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+
+/*  */
+
+/* footer part */
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 80px 0px 150px 0px;
+}
+
+.contact{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.contact button{
+    width:160px;
+    margin-left: 10px;
+}
+
+.footerWrapper{
+    list-style-type: none;
+    padding: 30px;
+}
+
